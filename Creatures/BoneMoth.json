@@ -1,0 +1,198 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "BoneMoth",
+				"abbreviation": "MoM",
+				"full": "Custom Monsters",
+				"url": "",
+				"authors": [
+					"Levi"
+				],
+				"convertedBy": [
+					"Fenodyree"
+				]
+			}
+		],
+		"dateAdded": 1615846597,
+		"dateLastModified": 1615846597
+	},
+	"monster": [
+		{
+			"name": "Bone Moth",
+			"source": "BoneMoth",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "1d6",
+				"average": 3
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+0",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Protect the Young",
+					"entries": [
+						"The moth has advantage on an attack roll against a creature that is within 5ft of it's larvae."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Acid Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1}) piercing damage, ({@damage 1d4 + 1}) acid damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Taking its name from its tendency to lay eggs on corpses or burrowing into freshly dug graves, these moths can grow up to one foot in length, with a wingspan of twice that. They are fiercely protective of their young and feed themselves on live flesh, caught using their acid saliva."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://github.com/FenodyreeAv/Homebrew-MoM/blob/main/Creatures/bastard_moth.png?raw=true"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://github.com/FenodyreeAv/Homebrew-MoM/blob/main/Creatures/bastard_moth.png?raw=true",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Bone Moth",
+			"source": "BoneMoth",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "1d6",
+				"average": 3
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 10,
+			"int": 3,
+			"wis": 6,
+			"cha": 5,
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+0",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Protect the Young",
+					"entries": [
+						"The moth has advantage on an attack roll against a creature that is within 5ft of it's larvae."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Acid Mandibles",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1}) piercing damage, ({@damage 1d4 + 1}) acid damage."
+					]
+				}
+			],
+			"environment": [
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Taking its name from its tendency to lay eggs on corpses or burrowing into freshly dug graves, these moths can grow up to one foot in length, with a wingspan of twice that. They are fiercely protective of their young and feed themselves on live flesh, caught using their acid saliva."
+								]
+							}
+						]
+					}
+				]
+			},
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true
+		}
+	]
+}
